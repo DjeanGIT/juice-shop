@@ -37,6 +37,7 @@ jobs:
           
   job2:
     runs-on: winodws-latest
+    needs: job1
     
     steps:
      - uses: action/checkout@v2
